@@ -21,14 +21,14 @@ class SlackMessenger:
                     "type": "section",
                     "text": {
                         "type": "mrkdwn",
-                        "text": "*Error Log Monitor*\n\nWe've got problems...",
+                        "text": "*Rule Error Log Monitor*\n\nWe've got problems...",
                     },
                 },
                 {
                     "type": "section",
                     "text": {
                         "type": "mrkdwn",
-                        "text": "Errors have been detected in the error log:",
+                        "text": "Errors have been detected in the rule error log:",
                     },
                 },
                 {"type": "divider"},
