@@ -16,6 +16,7 @@ class SlackMessenger:
     @property
     def msg(self):
         msg = {
+            "text": "Rule errors detected"
             "blocks": [
                 {
                     "type": "section",
